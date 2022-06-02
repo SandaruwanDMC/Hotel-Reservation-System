@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+.pay-box{
+	width: 100%;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+.pay-content{
+	max-width: 400px;
+	height: auto;
+	background-color: white;
+	border-radius: 5px;
+	margin: 160px auto;
+	text-align: center;
+	position: relative;
+	padding: 35px;
+	padding-top: 50px;
+	border: 5px solid gold;
+}
+
+.pay-icon{
+	position: relative;
+}
+
+.pay-icon .fas,
+.pay-icon .far{
+	position: absolute;
+	bottom: 12px;
+	left: 15px;
+	font-size: 15px;
+	color: #555555;
+}
+
+.pay-content{
+	display: block;
+	margin-bottom: 6px;
+}
+
+.pay-input{
+	padding: 10px 0 10px 25px;
+	width: 100%;
+	text-align: center;
+	border: 2px solid #DDDDDD;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	word-wrap: 3px;
+	outline: none;
+	font-size: 16px;
+	color: #808080;
+	margin-top: 10px;
+}
+
+.card-grp{
+	display: flex;
+	justify-content: space-between;
+}
+.pay-card .label{
+	align-self: left;
+}
+
+.pay-btn{
+	margin-top: 20px;
+	background-color: gold;
+	padding: 12px;
+	text-align: center;
+	color: #F8F8F8;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.pay-btn1:hover{
+	background-color: #E6B800;
+}
+
+.pay-btn2:hover{
+	background-color: #E6B800;
+}
+
+.pay-card{
+	margin-bottom: 20px;
+}
+
+.pay-card-grp{
+	width: 48%;
+}
+
+.pay-btn{
+	width: 48%;
+	margin-top: 50px;
+}
+
+.btn-grp{
+	display: flex;
+	justify-content: space-between;
+}
+
+.close{
+	margin-top: -45px;
+	font-size: 30px;
+	margin-right: -25px;
+	cursor: pointer;
+	margin-bottom: 45px;
+}
+
+.close:hover{
+	color: red;
+}
+
+#logo{
+	position: relative;
+	margin-top: -5px;
+	margin-left: -2px;
+}
+
+@media screen and (max-width: 420px){
+	.card-grp, .btn-grp{
+		flex-direction: column;
+	}
+
+	.pay-card-grp, .pay-btn{
+		width: 100%;
+		margin-bottom: 30px;
+		margin-top: 0px;
+	}
+
+	.close{
+		color: red;
+	}	
+}
+
+.pay-logo{
+	position: absolute;
+	top: -55px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 105px;
+	height: 105px;
+	background-color: white;
+	border-radius: 50%;
+	box-shadow: 0 0 10px;
+	text-align: center;
+	line-height: 85px;
+	border: 5px solid gold;
+}
+
+/*.pay-logo:before{
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 90px;
+	height: 90px;
+	background-color: none;
+	border-radius: 50%;
+}*/
+
+
+

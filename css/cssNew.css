@@ -1,0 +1,14 @@
+.new
+{
+	width: 250px;
+	height: 150px;
+	filter: grayscale(100%);
+	transition: 1s;
+	padding: 5px;
+}
+
+.offer-content img:hover
+{
+	filter: grayscale(0%);
+	transform: scale(1.1);
+}
